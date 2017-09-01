@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+html, body, .wrap {
+  width: 100%;
+  height: 100%; }
+
+body {
+  background: #f3f3fe;
+  font-size: 0.14rem; }
+
+.wrap {
+  display: flex;
+  flex-direction: column; }
+
+main .nav span, main .slide .slide-first-top p, main .slide .slide-second-top p, main .slide .slide-third-top p, main .slide .slide-four-top p {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+header {
+  width: 100%;
+  height: .7rem;
+  background: #000; }
+
+main {
+  flex: 1;
+  overflow-y: scroll;
+  overflow-x: hidden; }
+  main .nav {
+    width: 100%;
+    height: 0.7rem;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    display: flex; }
+    main .nav span {
+      flex: 1;
+      color: #999;
+      font-size: 0.2rem; }
+    main .nav span.active {
+      color: #617ef6;
+      border-bottom: 2px solid #617ef6;
+      width: 25%; }
+  main .slide {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    margin-top: 0.3rem; }
+    main .slide .slide-first {
+      width: 85%;
+      height: 2.2rem;
+      margin-left: 7%;
+      padding-top: 0.2rem;
+      margin-bottom: 0.3rem;
+      box-shadow: 3px 3px 3px #ccc;
+      border-radius: 5px 5px 0 0; }
+    main .slide .slide-first-top {
+      width: 100%;
+      height: 1rem;
+      background: url(../images/1_03.png);
+      background-size: 100% 100%;
+      display: flex; }
+      main .slide .slide-first-top p {
+        flex: 1;
+        font-size: 0.4rem;
+        color: #fff; }
+    main .slide .slide-first-bottom {
+      width: 100%;
+      height: 1rem; }
+      main .slide .slide-first-bottom p {
+        padding-left: 0.23rem;
+        padding: 0.1rem 0 0.1rem 0.25rem; }
+      main .slide .slide-first-bottom img {
+        vertical-align: middle;
+        padding-right: 0.1rem; }
+    main .slide .slide-second {
+      width: 85%;
+      height: 2.2rem;
+      margin-left: 7%;
+      padding-top: 0.2rem;
+      margin-bottom: 0.3rem;
+      box-shadow: 3px 3px 3px #ccc;
+      border-radius: 5px 5px 0 0; }
+    main .slide .slide-second-top {
+      width: 100%;
+      height: 1rem;
+      background: url(../images/4_03.png);
+      background-size: 100% 100%;
+      display: flex; }
+      main .slide .slide-second-top p {
+        flex: 1;
+        font-size: 0.4rem;
+        color: #fff; }
+    main .slide .slide-second-bottom {
+      width: 100%;
+      height: 1rem; }
+      main .slide .slide-second-bottom p {
+        padding-left: 0.23rem;
+        padding: 0.1rem 0 0.1rem 0.25rem; }
+      main .slide .slide-second-bottom img {
+        vertical-align: middle;
+        padding-right: 0.1rem; }
+    main .slide .slide-third {
+      width: 85%;
+      height: 2.2rem;
+      margin-left: 7%;
+      padding-top: 0.2rem;
+      margin-bottom: 0.3rem;
+      box-shadow: 3px 3px 3px #ccc;
+      border-radius: 5px 5px 0 0; }
+    main .slide .slide-third-top {
+      width: 100%;
+      height: 1rem;
+      background: url(../images/5_03.png);
+      background-size: 100% 100%;
+      display: flex; }
+      main .slide .slide-third-top p {
+        flex: 1;
+        font-size: 0.4rem;
+        color: #fff; }
+    main .slide .slide-third-bottom {
+      width: 100%;
+      height: 1rem; }
+      main .slide .slide-third-bottom p {
+        padding-left: 0.23rem;
+        padding: 0.1rem 0 0.1rem 0.25rem; }
+      main .slide .slide-third-bottom img {
+        vertical-align: middle;
+        padding-right: 0.1rem; }
+    main .slide .slide-four {
+      width: 85%;
+      height: 2.2rem;
+      margin-left: 7%;
+      padding-top: 0.2rem;
+      margin-bottom: 0.3rem;
+      box-shadow: 3px 3px 3px #ccc;
+      border-radius: 5px 5px 0 0; }
+    main .slide .slide-four-top {
+      width: 100%;
+      height: 1rem;
+      background: url(../images/6_03.png);
+      background-size: 100% 100%;
+      display: flex; }
+      main .slide .slide-four-top p {
+        flex: 1;
+        font-size: 0.4rem;
+        color: #fff; }
+    main .slide .slide-four-bottom {
+      width: 100%;
+      height: 1rem; }
+      main .slide .slide-four-bottom p {
+        padding-left: 0.23rem;
+        padding: 0.1rem 0 0.1rem 0.25rem; }
+      main .slide .slide-four-bottom img {
+        vertical-align: middle;
+        padding-right: 0.1rem; }
+
+/*# sourceMappingURL=style.css.map */
